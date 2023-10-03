@@ -254,7 +254,7 @@ public bool ValidarTokenUsuario(string tokenUsuario)
 }
 ```
 
--**Creacion del controlador:**
+### Creacion del controlador
      -En el controlador vamos a realizar todas las solicitudes al servidor para poder generar el token .Cada solicitud se explica a continuacion:
 
 ## AddUser:
