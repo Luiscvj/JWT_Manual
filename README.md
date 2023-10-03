@@ -60,11 +60,8 @@ Los JWTs son ampliamente utilizados en aplicaciones web y servicios API para imp
      3)Asociamos nuestra clase de contexto con nuestra cadena de conexion  en nuestro contenedor de dependencias para poder acceder a la base de datos.
      4) Creamos nuestra clase **Usuario** , la cual nos va permitir registrar, validar y usar el token generado.    
      ![usuario](https://github.com/Luiscvj/JWT_Manual/assets/130381389/93385dd5-dbb3-41d4-9531-4f2a5627c83e)   
-     5)Generamos nuestra Unidad de trabajo para lo cual se tuvo que crear con anterioridad las interfaces y repositorios de cada entidad.El objetivo es poder      utilizar **lazy loading**.
-     6)Asociamos su interfaz a la clase de **UnitOfWork** con el de poder acceder a ella desde cualquier parte del codigo.
-
-
-     
+     5)Generamos nuestra Unidad de trabajo para lo cual se tuvo que crear con anterioridad las interfaces y repositorios de cada entidad.El objetivo es             poder   utilizar **lazy loading**.
+     6)Asociamos su interfaz a la clase de **UnitOfWork** con el de poder acceder a ella desde cualquier parte del codigo.  
      ![InyeccionUnidadDeTrabajo](https://github.com/Luiscvj/JWT_Manual/assets/130381389/0fc3b4b9-5fb0-44de-8a00-6cd83e23c9ab)
      
 -**Creacion Helpers:** Creamos una clase llamada enciptacion para poder usar todos sus metodos al momento de querer encriptar la infromacion para enviarla al servidor y validar el token.De igual forma se creo su interfaz y se inyecto al contenedor de dependencias.
