@@ -49,6 +49,8 @@ Los JWTs son ampliamente utilizados en aplicaciones web y servicios API para imp
            Microsoft.EntityFrameworkCore.Design , Version >= 7.
 
 - **Familiarizacion con el manejo de capas en proyectos API**
+ ![Captura de pantalla 2023-10-03 013056](https://github.com/Luiscvj/JWT_Manual/assets/130381389/b028f085-e328-460a-931e-95e0e56b2d1e)
+
 
 
 ### Procedimiento
